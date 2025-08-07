@@ -301,7 +301,7 @@ export default function Home() {
                 <Bot className="w-12 h-12 mb-4 text-slate-300" />
                 <h3 className="text-lg font-medium mb-2">How can I help you today?</h3>
                 <p className="text-sm text-center max-w-md">
-                  I'm here to assist you with any questions, tasks, or creative projects you might have.
+                  I&apos;m here to assist you with any questions, tasks, or creative projects you might have.
                 </p>
               </div>
             ) : (

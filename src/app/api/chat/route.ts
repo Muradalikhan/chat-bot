@@ -38,7 +38,7 @@ export async function POST(request: Request) {
         'Connection': 'keep-alive',
       },
     })
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Gemini error:', error)
     return NextResponse.json({ error: 'Gemini API Error' }, { status: 500 })
   }
